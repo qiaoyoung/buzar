@@ -4,22 +4,24 @@
 <dict>
 	<key>destination</key>
 	<string>export</string>
+	<key>manageAppVersionAndBuildNumber</key>
+	<false/>
 	<key>method</key>
-	<string>debugging</string>
+	<string>app-store</string>
 	<key>provisioningProfiles</key>
 	<dict>
-		<key>ios.sweete.happy</key>
-		<string>ios.sweete.happy_dev_20240509</string>
+		<key>com.buzzrteam.ios</key>
+		<string>com.buzzrteam.ios_dis_20241231</string>
 	</dict>
 	<key>signingCertificate</key>
-	<string>Apple Development</string>
+	<string>Apple Distribution</string>
 	<key>signingStyle</key>
 	<string>manual</string>
 	<key>stripSwiftSymbols</key>
 	<true/>
 	<key>teamID</key>
-	<string>6VFR63B9QM</string>
-	<key>thinning</key>
-	<string>&lt;none&gt;</string>
+	<string>MG874LL4UF</string>
+	<key>uploadSymbols</key>
+	<false/>
 </dict>
 </plist>
