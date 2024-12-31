@@ -1,0 +1,224 @@
+{
+  "characters": [
+    {
+      "id": "1",
+      "nickname": "Little Red Riding Hood",
+      "role": "Adventurer",
+      "description": "A brave little girl who always wears her iconic red cape. She loves exploring forest mysteries and helping forest animals solve their problems. She's clever, brave, compassionate, and the most popular friend in the forest.",
+      "avatarPath": "assets/images/character_1.png",
+      "skills": ["Forest Exploration", "Animal Communication", "First Aid", "Foraging"],
+      "personality": "Cheerful, compassionate, brave, helpful",
+      "background": "Growing up near the forest, she learned forest knowledge from her grandmother. After helping an injured wolf, she decided to become an adventurer to help more animals in need. Now she's the most trusted human friend in the forest.",
+      "equipment": ["Red Cape", "Adventure Backpack", "Compass", "Medical Kit"]
+    },
+    {
+      "id": "2",
+      "nickname": "Forest Guardian",
+      "role": "Nature Emissary",
+      "description": "This mysterious guardian has lived in symbiosis with the forest for thousands of years, able to understand plant language and master nature's powers. He protects forest peace and maintains ecosystem balance, being the wisest existence in the forest.",
+      "avatarPath": "assets/images/character_2.png",
+      "skills": ["Nature Magic", "Plant Communication", "Ecosystem Restoration", "Weather Prediction"],
+      "personality": "Calm, nature-loving, far-sighted, peaceful",
+      "background": "Legend says he was chosen by the ancient nature god, mastering nature's mysteries through millennia of practice. He guards the forest and maintains ecological balance, being the guardian deity of all living beings.",
+      "equipment": ["Staff of Life", "Nature Tome", "Seed Pouch", "Healing Crystal"]
+    },
+    {
+      "id": "3",
+      "nickname": "Mage Ellie",
+      "role": "Wizard",
+      "description": "A prodigy from the Magic Academy who masters various spells at an amazing speed. She excels in elemental magic and has created multiple unique spells. Her magical bookshelf is filled with mysterious ancient texts, maintaining endless enthusiasm for magic.",
+      "avatarPath": "assets/images/character_3.png",
+      "skills": ["Element Control", "Magic Research", "Spell Creation", "Magical Item Crafting"],
+      "personality": "Curious, innovative, focused, gentle",
+      "background": "Born into a magical family, showing extraordinary talent at age 5. Set the record for youngest chief student at the Magic Academy, now dedicated to uncovering ancient magic secrets and creating new magical systems.",
+      "equipment": ["Crystal Staff", "Spellbook", "Potion Bag", "Rune Amulet"]
+    },
+    {
+      "id": "4",
+      "nickname": "Swordsman Jack",
+      "role": "Warrior",
+      "description": "A sword master who has traveled the world, mastering various martial arts. Not only is he skilled, but also a righteous warrior. Under his guidance, many young swordsmen have grown into excellent warriors.",
+      "avatarPath": "assets/images/character_4.png",
+      "skills": ["Swordsmanship", "Tactical Analysis", "Weapon Forging", "Combat Skills"],
+      "personality": "Righteous, disciplined, loyal, perfectionist",
+      "background": "Born into a martial arts family, practicing since childhood. Traveled the world seeking martial arts truth, learning different styles. Now runs a dojo passing knowledge to next generation.",
+      "equipment": ["Legendary Sword", "Light Armor", "Martial Arts Manual", "Healing Potion"]
+    },
+    {
+      "id": "5",
+      "nickname": "Mechanic Tony",
+      "role": "Engineer",
+      "description": "A creative genius inventor whose workshop is always filled with the sounds of gears and parts. His mechanical devices are not only precise and complex but also practical, earning dozens of patents.",
+      "avatarPath": "assets/images/character_5.png",
+      "skills": ["Mechanical Design", "Energy Research", "Electronic Engineering", "Materials Science"],
+      "personality": "Innovative, detail-oriented, logical, perfectionist",
+      "background": "Fascinated by mechanics since childhood, often dismantling devices to study their principles. After earning multiple degrees from Tech Institute, established his lab focusing on new energy and smart mechanics.",
+      "equipment": ["Multi-tool Kit", "Smart Glasses", "Mechanical Arm", "Energy Core"]
+    },
+    {
+      "id": "6",
+      "nickname": "Healer Anna",
+      "role": "Therapist",
+      "description": "A miraculous healer combining modern medicine with ancient healing magic. She excels in various healing spells and has developed unique healing formulas. Her clinic always shows her busy but gentle presence.",
+      "avatarPath": "assets/images/character_6.png",
+      "skills": ["Healing Magic", "Potion Brewing", "Diagnosis", "Emergency Medicine"],
+      "personality": "Kind, patient, empathetic, responsible",
+      "background": "From a family of healers, combining traditional and modern medicine. After successfully creating an antidote during an epidemic, dedicated to studying mysterious healing magic.",
+      "equipment": ["Healing Staff", "Medicine Bag", "Medical Tome", "Healing Crystal"]
+    },
+    {
+      "id": "7",
+      "nickname": "Hunter William",
+      "role": "Tracker",
+      "description": "This legendary hunter has lived in the forest for over thirty years, knowing every terrain and creature intimately. He's not only an excellent tracker but also an expert in forest ecology.",
+      "avatarPath": "assets/images/character_7.png",
+      "skills": ["Tracking", "Wilderness Survival", "Zoology", "Trap Making"],
+      "personality": "Calm, observant, independent, nature-loving",
+      "background": "Lost in the forest as a child, adopted by an old hunter who taught him skills. Dedicated years to protecting rare animals and fighting poachers, known as 'Forest Guardian'.",
+      "equipment": ["Hunting Bow", "Tracking Scope", "Survival Gear", "Animal Guide"]
+    },
+    {
+      "id": "8",
+      "nickname": "Alchemist Lily",
+      "role": "Alchemist",
+      "description": "A mysterious alchemy inheritor whose laboratory always smells of magical potions. She can create various magical potions and has discovered many new alchemy formulas.",
+      "avatarPath": "assets/images/character_8.png",
+      "skills": ["Alchemy", "Material Research", "Potion Making", "Element Extraction"],
+      "personality": "Curious, focused, perfectionist, careful",
+      "background": "Born into an alchemist family, inherited ancient alchemy secrets. Discovered new methods while studying old formulas, pioneering modern alchemy.",
+      "equipment": ["Alchemy Crucible", "Element Extractor", "Formula Book", "Alchemy Materials"]
+    },
+    {
+      "id": "9",
+      "nickname": "Bard Mark",
+      "role": "Poet",
+      "description": "A romantic poet wandering the world, touching countless hearts with beautiful songs and moving stories. He has created hundreds of masterpieces and collected many mysterious ancient legends.",
+      "avatarPath": "assets/images/character_9.png",
+      "skills": ["Music Creation", "Storytelling", "Instrument Playing", "Poetry Writing"],
+      "personality": "Romantic, imaginative, sensitive, optimistic",
+      "background": "Born into a musical family, showing extraordinary musical talent early. Traveled the world seeking inspiration, collecting folk tales and ancient songs.",
+      "equipment": ["Magic Harp", "Poetry Collection", "Story Book", "Recording Crystal"]
+    },
+    {
+      "id": "10",
+      "nickname": "Dragon Knight Eric",
+      "role": "Knight",
+      "description": "This legendary dragon rider formed an eternal contract with an ancient dragon. They guard the vast sky and maintain peace between humans and dragons.",
+      "avatarPath": "assets/images/character_10.png",
+      "skills": ["Dragon Speech", "Aerial Combat", "Dragon Training", "Tactical Command"],
+      "personality": "Brave, loyal, determined, charismatic",
+      "background": "Saved an injured baby dragon in childhood, forming a deep bond. After rigorous training, became the youngest Dragon Knight Captain.",
+      "equipment": ["Dragon Scale Armor", "Dragon Language Book", "Contract Crystal", "Flying Gear"]
+    },
+    {
+      "id": "11",
+      "nickname": "Elementalist Caroline",
+      "role": "Element Master",
+      "description": "A genius mage who can control natural elements, freely commanding wind, fire, water, and earth. After years of research, she mastered element balance and created unique element fusion magic.",
+      "avatarPath": "assets/images/character_11.png",
+      "skills": ["Element Control", "Element Fusion", "Nature Resonance", "Magic Circle Creation"],
+      "personality": "Composed, balance-seeking, thoughtful, nature-friendly",
+      "background": "Born in elemental lands, sensing elements since childhood. After years of training in elemental sanctuary, discovered element fusion, creating new elemental magic system.",
+      "equipment": ["Element Staff", "Element Gems", "Balance Ring", "Element Notes"]
+    },
+    {
+      "id": "12",
+      "nickname": "Mechanism Master Pete",
+      "role": "Mechanism Expert",
+      "description": "A genius in ancient and modern mechanisms, designing precise and artistically beautiful mechanisms. His workshop always echoes with gear sounds, creating practical and complex mechanical devices.",
+      "avatarPath": "assets/images/character_12.png",
+      "skills": ["Mechanism Design", "Mechanical Manufacturing", "Construction Engineering", "Artistic Carving"],
+      "personality": "Careful, perfectionist, creative, patient",
+      "background": "From a mechanism family, learned ancient techniques from grandfather. Created unique new mechanisms by studying ancient ruins and combining modern technology.",
+      "equipment": ["Mechanism Toolbox", "Design Blueprints", "Precision Instruments", "Mechanism Models"]
+    },
+    {
+      "id": "13",
+      "nickname": "Astrologer Luna",
+      "role": "Astrologer",
+      "description": "A mysterious astrologer who can foresee the future with accurate and mystical astrology. She not only predicts future events but also provides guidance through astrology.",
+      "avatarPath": "assets/images/character_13.png",
+      "skills": ["Star Prediction", "Fate Reading", "Energy Sensing", "Rune Divination"],
+      "personality": "Mysterious, wise, understanding, perceptive",
+      "background": "Attracted by celestial mysteries in childhood, studied at Astrology Tower. Developed unique star prediction system after years of research, accurately foreseeing future changes.",
+      "equipment": ["Astrolabe", "Crystal Ball", "Prophecy Book", "Star Chart"]
+    },
+    {
+      "id": "14",
+      "nickname": "Monk Lee",
+      "role": "Martial Artist",
+      "description": "An eastern martial arts practitioner mastering techniques filled with oriental philosophy wisdom. He's not only a martial artist but also a philosopher.",
+      "avatarPath": "assets/images/character_14.png",
+      "skills": ["Internal Energy", "Qi Cultivation", "Martial Forms", "Meditation"],
+      "personality": "Peaceful, humble, disciplined, open-minded",
+      "background": "Grew up in temple, learned from many martial masters. Created unique martial system by combining different styles, dedicated to spreading martial culture.",
+      "equipment": ["Zen Staff", "Martial Classics", "Meditation Mat", "Energy Pills"]
+    },
+    {
+      "id": "15",
+      "nickname": "Pirate Captain Jack",
+      "role": "Navigator",
+      "description": "An adventurous captain sailing the seas with excellent navigation skills and adventurous spirit. He's not just a navigator but also an adventurer.",
+      "avatarPath": "assets/images/character_15.png",
+      "skills": ["Navigation", "Tactical Command", "Treasure Hunting", "Weather Forecasting"],
+      "personality": "Adventurous, quick-witted, generous, charismatic",
+      "background": "Born in port city, yearning for the sea since childhood. After countless adventures and challenges, became legendary captain of seven seas, discovering many lost treasures.",
+      "equipment": ["Captain's Compass", "Treasure Map", "Telescope", "Lucky Anchor"]
+    },
+    {
+      "id": "16",
+      "nickname": "Time Traveler Alice",
+      "role": "Time Master",
+      "description": "A mysterious traveler through time and space, moving swiftly with mystical abilities. She's not just a time master but also a mystic scholar.",
+      "avatarPath": "assets/images/character_16.png",
+      "skills": ["Time Travel", "Historical Research", "Dimension Jump", "Timeline Repair"],
+      "personality": "Cautious, knowledgeable, responsible, mysterious",
+      "background": "Gained time travel ability in accident, began cross-time journey. Studies history across different times, dedicated to maintaining timeline stability.",
+      "equipment": ["Time Watch", "History Books", "Dimension Mirror", "Time Compass"]
+    },
+    {
+      "id": "17",
+      "nickname": "Illusionist David",
+      "role": "Illusionist",
+      "description": "A magician creating brilliant illusions with both splendor and mystery. He's not just an illusionist but also a performance artist.",
+      "avatarPath": "assets/images/character_17.png",
+      "skills": ["Illusion Creation", "Mind Suggestion", "Magic Performance", "Deception Crafting"],
+      "personality": "Mysterious, talented, creative, detail-oriented",
+      "background": "From performance family, showing extraordinary magic talent early. Creates breathtaking illusion shows by combining traditional magic with modern technology.",
+      "equipment": ["Magic Wand", "Illusion Props", "Performance Costume", "Magic Notes"]
+    },
+    {
+      "id": "18",
+      "nickname": "Rune Scholar Sarah",
+      "role": "Rune Master",
+      "description": "A scholar studying ancient runes with deep and mysterious research. She's not just a rune master but also an archaeologist.",
+      "avatarPath": "assets/images/character_18.png",
+      "skills": ["Rune Analysis", "Energy Infusion", "Ancient Translation", "Rune Crafting"],
+      "personality": "Academic, curious, focused, insightful",
+      "background": "Discovered ancient runes during archaeological dig, devoted to rune research. Revived lost rune techniques through ancient text study, pioneering modern runology.",
+      "equipment": ["Rune Notes", "Energy Crystal", "Ancient Archives", "Rune Tools"]
+    },
+    {
+      "id": "19",
+      "nickname": "Beast Tamer Alex",
+      "role": "Beast Master",
+      "description": "A beast tamer befriending various magical creatures with excellent skills and magical touch. He's not just a beast master but also a biologist.",
+      "avatarPath": "assets/images/character_19.png",
+      "skills": ["Animal Communication", "Biology Research", "Taming Techniques", "Healing Arts"],
+      "personality": "Patient, life-loving, observant, empathetic",
+      "background": "Could communicate with animals since childhood, building friendships with magical creatures in wild. Developed unique taming methods through studying different creatures' habits.",
+      "equipment": ["Taming Flute", "Creature Guide", "Medical Box", "Feeding Tools"]
+    },
+    {
+      "id": "20",
+      "nickname": "Puppet Master Mary",
+      "role": "Puppeteer",
+      "description": "A craftsman creating magical puppets with both wonder and mystery. She's not just a puppeteer but also an artist.",
+      "avatarPath": "assets/images/character_20.png",
+      "skills": ["Puppet Making", "Soul Infusion", "Mechanism Design", "Magic Weaving"],
+      "personality": "Artistic, creative, detail-minded, perfectionist",
+      "background": "Inherited family puppet workshop, combining traditional crafts with magic technology. Creates self-moving magical puppets through innovation, works collected by many magic museums.",
+      "equipment": ["Crafting Tools", "Magic Materials", "Design Blueprints", "Soul Crystal"]
+    }
+  ]
+} 

@@ -1,0 +1,49 @@
+name: my_app
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_staggered_grid_view: ^0.7.0
+  shared_preferences: ^2.2.2
+  uuid: ^4.2.1
+  http: ^1.1.0
+  package_info_plus: ^4.0.0
+  audioplayers: ^5.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data/characters.json
+    - assets/images/character_1.png
+    - assets/images/character_2.png
+    - assets/images/character_3.png
+    - assets/images/character_4.png
+    - assets/images/character_5.png
+    - assets/images/character_6.png
+    - assets/images/character_7.png
+    - assets/images/character_8.png
+    - assets/images/character_9.png
+    - assets/images/character_10.png
+    - assets/images/character_11.png
+    - assets/images/character_12.png
+    - assets/images/character_13.png
+    - assets/images/character_14.png
+    - assets/images/character_15.png
+    - assets/images/character_16.png
+    - assets/images/character_17.png
+    - assets/images/character_18.png
+    - assets/images/character_19.png
+    - assets/images/character_20.png
+    - assets/musics/
