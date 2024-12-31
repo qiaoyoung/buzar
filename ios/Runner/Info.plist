@@ -2,13 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>NSAppTransportSecurity</key>
-	<dict>
-		<key>NSAllowsArbitraryLoads</key>
-		<true/>
-	</dict>
-	<key>NSUserTrackingUsageDescription</key>
-	<string>Buzar uses device identifier information to enhance the security of your account transactions and provide personalized advertising services tailored to your preferences.</string>
 	<key>AVAudioSession</key>
 	<dict>
 		<key>Category</key>
@@ -23,7 +16,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Ai</string>
+	<string>Buzar</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -38,12 +31,27 @@
 	<string>$(FLUTTER_BUILD_NAME)</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>buzar</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>buzar</string>
+			</array>
+		</dict>
+	</array>
 	<key>CFBundleVersion</key>
 	<string>$(FLUTTER_BUILD_NUMBER)</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSMicrophoneUsageDescription</key>
-	<string>Buzar needs microphone access to record and send audio messages. Without this permission, you won&apos;t be able to record and share audio messages.</string>
+	<string>Buzar needs microphone access to record and send audio messages. Without this permission, you won't be able to record and share audio messages.</string>
+	<key>NSUserTrackingUsageDescription</key>
+	<string>Buzar uses device identifier information to enhance the security of your account transactions and provide personalized advertising services tailored to your preferences.</string>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 	<key>UIBackgroundModes</key>
