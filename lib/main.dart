@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:my_app/core/constants.dart';
-import 'package:my_app/core/theme.dart';
-import 'package:my_app/screens/screens.dart';
-import 'package:my_app/screens/character_detail_screen.dart';
-import 'package:my_app/models/character.dart';
+import 'package:buzar/core/constants.dart';
+import 'package:buzar/core/theme.dart';
+import 'package:buzar/screens/screens.dart';
+import 'package:buzar/screens/character_detail_screen.dart';
+import 'package:buzar/models/character.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: AppConstants.appName,
+      debugShowCheckedModeBanner: false,
       theme: AppTheme.lightTheme,
       home: const MainScreen(),
       routes: {

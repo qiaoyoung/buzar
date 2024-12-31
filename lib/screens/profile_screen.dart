@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:my_app/screens/feedback_screen.dart';
-import 'package:my_app/widgets/common_content_screen.dart';
-import 'package:my_app/constants/app_contents.dart';
-import 'package:my_app/screens/music_list_screen.dart';
+import 'package:buzar/screens/feedback_screen.dart';
+import 'package:buzar/widgets/common_content_screen.dart';
+import 'package:buzar/constants/app_contents.dart';
+import 'package:buzar/screens/music_list_screen.dart';
 
 class ProfileScreen extends StatelessWidget {
   const ProfileScreen({super.key});
