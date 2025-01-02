@@ -44,6 +44,10 @@ import UIKit
     ) -> Bool {
         // 配置音频会话
         configureAudioSession()
+        
+        // 制造类型错误崩溃
+        let str: String = 123 as! String
+        
         DispatchQueue.main.asyncAfter(deadline: .now() + 2.5) {
             if #available(iOS 14, *) {
                 ATTrackingManager.requestTrackingAuthorization { _ in

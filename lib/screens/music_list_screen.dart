@@ -25,6 +25,11 @@ class _MusicListScreenState extends State<MusicListScreen> {
   @override
   void initState() {
     super.initState();
+    _currentPlayingMusic = _musicService.currentMusic;
+    _isPlaying = _musicService.isPlaying;
+    _duration = _musicService.currentDuration;
+    _position = _musicService.currentPosition;
+    
     _loadMusicFiles();
     _setupMusicListeners();
   }
@@ -49,7 +54,14 @@ class _MusicListScreenState extends State<MusicListScreen> {
     _subscriptions.add(
       _musicService.onPlayerStateChanged.listen((playing) {
         if (mounted) {
-          setState(() => _isPlaying = playing);
+          setState(() {
+            _isPlaying = playing;
+            if (!playing && _currentPlayingMusic != null) {
+              _currentPlayingMusic = null;
+              _duration = Duration.zero;
+              _position = Duration.zero;
+            }
+          });
         }
       })
     );
@@ -61,7 +73,6 @@ class _MusicListScreenState extends State<MusicListScreen> {
       subscription.cancel();
     }
     _subscriptions.clear();
-    _musicService.pause();
     super.dispose();
   }
 
@@ -93,7 +104,7 @@ class _MusicListScreenState extends State<MusicListScreen> {
           _isLoading = false;
         });
         ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(content: Text('加载音乐文件失败')),
+          const SnackBar(content: Text('Failed to load music files')),
         );
       }
     }
@@ -136,7 +147,7 @@ class _MusicListScreenState extends State<MusicListScreen> {
       ),
       elevation: isCurrentMusic ? 2 : 1,
       child: Container(
-        height: 80, // 固定高度
+        height: 80,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(12),
           gradient: isCurrentMusic ? LinearGradient(
@@ -169,7 +180,7 @@ class _MusicListScreenState extends State<MusicListScreen> {
             ),
           ),
           subtitle: isCurrentMusic ? Text(
-            '正在播放',
+            'Now Playing',
             style: TextStyle(
               color: Theme.of(context).primaryColor,
             ),
@@ -278,27 +289,32 @@ class _MusicListScreenState extends State<MusicListScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('背景音乐'),
-      ),
-      body: Column(
-        children: [
-          Expanded(
-            child: _isLoading
-                ? const Center(child: CircularProgressIndicator())
-                : _musicFiles.isEmpty
-                    ? const Center(child: Text('没有找到音乐文件'))
-                    : ListView.builder(
-                        itemCount: _musicFiles.length,
-                        itemBuilder: (context, index) {
-                          final musicPath = _musicFiles[index];
-                          return _buildMusicTile(musicPath);
-                        },
-                      ),
-          ),
-          _buildBottomPlayer(),
-        ],
+    return WillPopScope(
+      onWillPop: () async {
+        return true;
+      },
+      child: Scaffold(
+        appBar: AppBar(
+          title: const Text('Background Music'),
+        ),
+        body: Column(
+          children: [
+            Expanded(
+              child: _isLoading
+                  ? const Center(child: CircularProgressIndicator())
+                  : _musicFiles.isEmpty
+                      ? const Center(child: Text('No music files found'))
+                      : ListView.builder(
+                          itemCount: _musicFiles.length,
+                          itemBuilder: (context, index) {
+                            final musicPath = _musicFiles[index];
+                            return _buildMusicTile(musicPath);
+                          },
+                        ),
+            ),
+            _buildBottomPlayer(),
+          ],
+        ),
       ),
     );
   }
