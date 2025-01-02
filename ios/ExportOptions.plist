@@ -11,7 +11,7 @@
 	<key>provisioningProfiles</key>
 	<dict>
 		<key>com.buzzrteam.ios</key>
-		<string>com.buzzrteam.ios_dis_20250102</string>
+		<string>ios.buzzrteam.ios_dis_20250102</string>
 	</dict>
 	<key>signingCertificate</key>
 	<string>Apple Distribution</string>
