@@ -378,7 +378,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.buzzrteam.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = ios.buzzrteam.ios_dis_20241231;
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = ios.buzzrteam.ios_dis_20250102;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -525,7 +525,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.buzzrteam.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = ios.buzzrteam.ios_dis_20241231;
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = ios.buzzrteam.ios_dis_20250102;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -562,7 +562,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.buzzrteam.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = ios.buzzrteam.ios_dis_20241231;
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = ios.buzzrteam.ios_dis_20250102;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
