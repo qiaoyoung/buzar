@@ -367,7 +367,7 @@
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = MG874LL4UF;
 				ENABLE_BITCODE = NO;
 				FLUTTER_APPLICATION_PATH = /Users/runner/work/buzar/buzar;
-				FLUTTER_ROOT = "/Users/runner/hostedtoolcache/flutter/3.16.5-stable/arm64";
+				FLUTTER_ROOT = "/Users/runner/hostedtoolcache/flutter/3.24.4-stable/arm64";
 				INFOPLIST_FILE = Runner/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Buzar;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -514,7 +514,7 @@
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = MG874LL4UF;
 				ENABLE_BITCODE = NO;
 				FLUTTER_APPLICATION_PATH = /Users/runner/work/buzar/buzar;
-				FLUTTER_ROOT = "/Users/runner/hostedtoolcache/flutter/3.16.5-stable/arm64";
+				FLUTTER_ROOT = "/Users/runner/hostedtoolcache/flutter/3.24.4-stable/arm64";
 				INFOPLIST_FILE = Runner/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Buzar;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -551,7 +551,7 @@
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = MG874LL4UF;
 				ENABLE_BITCODE = NO;
 				FLUTTER_APPLICATION_PATH = /Users/runner/work/buzar/buzar;
-				FLUTTER_ROOT = "/Users/runner/hostedtoolcache/flutter/3.16.5-stable/arm64";
+				FLUTTER_ROOT = "/Users/runner/hostedtoolcache/flutter/3.24.4-stable/arm64";
 				INFOPLIST_FILE = Runner/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Buzar;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
